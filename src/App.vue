@@ -1,17 +1,28 @@
 <template>
+
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    <img style="width: 200px; height: 150px;" src="./assets/ViollierLogo.svg">
+
+    <HelloWorld msg="Welcome v-team"/>
+    <konva></konva>
+    <story></story>
+
   </div>
+
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import HelloWorld from './components/HelloWorld.vue';
+import konva from './components/konva.vue';
+import story from './components/story.vue';
+
 
 @Component({
   components: {
+    konva,
     HelloWorld,
+    story,
   },
 })
 export default class App extends Vue {}
@@ -24,6 +35,7 @@ export default class App extends Vue {}
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 0;
+
 }
 </style>

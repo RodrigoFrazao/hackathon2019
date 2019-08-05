@@ -2,23 +2,33 @@
   "name": "prd_increment_frontend",
   "version": "0.1.0",
   "private": true,
+  "description": "## Project setup ``` npm install ```",
+  "author": "",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "main": "babel.config.js",
   "dependencies": {
     "core-js": "^2.6.5",
+    "konva": "^3.4.1",
     "vue": "^2.6.10",
     "vue-class-component": "^7.0.2",
-    "vue-property-decorator": "^8.1.0"
+    "vue-konva": "^2.0.7",
+    "vue-property-decorator": "^8.1.0",
+    "vuetify": "^2.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.9.0",
     "@vue/cli-plugin-typescript": "^3.9.0",
     "@vue/cli-service": "^3.9.0",
+    "sass": "^1.17.4",
+    "sass-loader": "^7.1.0",
     "typescript": "^3.4.3",
-    "vue-template-compiler": "^2.6.10"
+    "vue-cli-plugin-vuetify": "^0.6.1",
+    "vue-template-compiler": "^2.6.10",
+    "vuetify-loader": "^1.2.2"
   },
   "postcss": {
     "plugins": {
@@ -28,5 +38,14 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/RodrigoFrazao/hackathon2019/issues"
+  },
+  "homepage": "https://github.com/RodrigoFrazao/hackathon2019#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodrigoFrazao/hackathon2019.git"
+  }
 }
